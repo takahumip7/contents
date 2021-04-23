@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+  </head>
+  <body>
+    <div id="message">HTMLで書いてます。</div>
+    <div class="box">boxクラスです。</div>
+    <script src="jquery.min.js"></script>
+    <script>
+      $("div").filter(".box").css("background-color", "#fcc");
+    </script>
+  </body>
+</html>
